@@ -1,11 +1,11 @@
 [package]
-name = "signfindrust"
+name = "signfind-rs"
 version = "0.0.1"
 authors = ["ThaCheeseBun"]
 edition = "2021"
-readme = "https://github.com/thacheesebun/signfindrust/blob/master/README.md"
-homepage = "https://github.com/thacheesebun/signfindrust/"
-repository = "https://github.com/thacheesebun/signfindrust/"
+readme = "https://github.com/thacheesebun/signfind-rs/blob/master/README.md"
+homepage = "https://github.com/thacheesebun/signfind-rs/"
+repository = "https://github.com/thacheesebun/signfind-rs/"
 license = "ISC"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

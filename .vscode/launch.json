@@ -7,15 +7,15 @@
     {
       "type": "lldb",
       "request": "launch",
-      "name": "Debug executable 'signfindrust'",
+      "name": "Debug executable 'signfind-rs'",
       "cargo": {
         "args": [
           "build",
-          "--bin=signfindrust",
-          "--package=signfindrust"
+          "--bin=signfind-rs",
+          "--package=signfind-rs"
         ],
         "filter": {
-          "name": "signfindrust",
+          "name": "signfind-rs",
           "kind": "bin"
         }
       },
@@ -25,16 +25,16 @@
     {
       "type": "lldb",
       "request": "launch",
-      "name": "Debug unit tests in executable 'signfindrust'",
+      "name": "Debug unit tests in executable 'signfind-rs'",
       "cargo": {
         "args": [
           "test",
           "--no-run",
-          "--bin=signfindrust",
-          "--package=signfindrust"
+          "--bin=signfind-rs",
+          "--package=signfind-rs"
         ],
         "filter": {
-          "name": "signfindrust",
+          "name": "signfind-rs",
           "kind": "bin"
         }
       },
